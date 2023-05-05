@@ -1,0 +1,6 @@
+step 1. git init 
+step 2. git add . 
+step 3. case I : if this is the first creation. git remote add origin <git link to git repo> case II: if the remote was already added git remote set-url origin <git link to git repo> 
+step 4. git pull origin master 
+step 5. git commit -m "type your message here" 
+step 6. git push origin master
