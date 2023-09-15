@@ -1,2 +1,6 @@
 LINK
-https://78e92c4303f17f2840.gradio.live
+https://www.youtube.com/watch?v=paGr-t1wSOQ
+
+Public IP: 172.179.0.131
+Username: ubuntu
+New Password: 16utIwrarI*ha!upr+zi
