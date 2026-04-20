@@ -1,8 +1,28 @@
-LINK
-https://www.youtube.com/watch?v=paGr-t1wSOQ
+# Root Docker example env values
 
-Public IP: 172.179.0.131
-Username: ubuntu
-New Password: 16utIwrarI*ha!upr+zi
+# evenstocks-api
+DB_HOST=mysql
+DB_USER=root
+DB_PASSWORD=example
+SENDER_EMAIL=taruntiwari.hp@gmail.com
+SENDER_PASSWORD=Tiwari2000@20
+RAZORPAY_KEY_ID=your_razorpay_key
+RAZORPAY_KEY_SECRET=your_razorpay_secret
 
-https://drive.google.com/file/d/1QhKHufOzb_dXrfonzDrU0a4YfXPF-3vF/view?usp=sharing
+# evenstocks-chatbot
+ANTHROPIC
+_API_KEY=
+sk-ant-api03-HWMKt9FuHfK7ZVk0Sn2E5
+G_OSdTG3JkrorkR
+w9nsPYIhf6JZNuahuVjbG1lSSMqgfC_kon7jlIXKGUJ
+J121A5A-kHII0wAA
+MODEL=claude-sonnet-4-20250514
+MAX_TOKENS=2048
+
+# evenstocks-backend
+EXTERNAL_API_BASE=http://evenstocks-api:5809/api
+ANALYZE_API_BASE=http://evenstocks-analyze:5808
+
+# frontend (React)
+REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_CHATBOT_WS_URL=ws://localhost:8000
